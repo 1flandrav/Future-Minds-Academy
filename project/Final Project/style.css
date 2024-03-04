@@ -1,0 +1,90 @@
+body {
+    background-image: url(hand-painted-watercolor-pastel-sky-background_23-2148902771.avif);
+
+}
+body {
+    cursor: url('image/rocket-icon-vector.jpg'), auto;
+}
+header {
+    border: 4px;
+    background-color: pink;
+    outline: plum;
+    text-align: center;
+}
+li{
+    background-color: rgb(171, 171, 221);
+   
+    color: rgb(255, 255, 255);
+    border-radius: 4rem;
+
+    display: inline;
+    padding: 1rem;
+
+}
+li :hover{
+    outline: auto solid purple;
+    background-color: rgb(182, 139, 223);
+padding: 1rem;
+border-radius: 4rem;
+}
+
+ul {
+    padding: 1rem;
+}
+.section1{
+    background-color: powderblue;
+    border-radius: 40px;
+    text-align: center;
+}
+.section1 :hover{
+    outline: 2px solid rgb(8, 8, 8);
+    border-radius: 40px;
+    background-color: rgb(128, 151, 176);
+    box-sizing: border-box content-box;
+}
+p{
+    color: rgb(50, 50, 70);
+    font-family: cursive;
+    text-align: center;
+}
+.section2{
+    background-color: rgb(226, 168, 227);
+    border-radius: 40px;
+    text-align: center;
+}
+.section2 :hover{
+    outline: 2px solid rgb(8, 8, 8);
+    border-radius: 40px;
+    background-color: rgb(149, 89, 136);
+    box-sizing: border-box content-box;
+}
+.section3{
+    background-color: rgb(206, 224, 160);
+    border-radius: 40px;
+    text-align: center;
+}
+.section3 :hover{
+    outline: 2px solid rgb(8, 8, 8);
+    border-radius: 40px;
+    background-color: rgb(75, 133, 94);
+    box-sizing: border-box content-box; 
+}
+.end {
+    padding: 3rem;
+ color: aliceblue;
+    display: block;
+    text-align: center;
+    background-color: rgb(84, 87, 77);
+}
+h1 {
+    border: 4px;
+    background-color: rgb(242, 227, 230);
+    outline: plum;
+    text-align: center; 
+}
+h1 :hover {
+    border: 4px;
+    background-color: rgb(206, 179, 183);
+    outline: plum;
+    text-align: center;
+}

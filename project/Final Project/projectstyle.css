@@ -1,0 +1,141 @@
+body {
+    background-image: url(photouj.jpg);
+
+}
+body {
+    cursor: url('image/rocket-icon-vector.jpg'), auto;
+}
+header {
+    text-align: center;
+}
+
+ul {
+    padding: 1rem;
+}
+
+
+.li1 {
+    color: blue;
+    border-radius: 4rem;
+
+    display: inline;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(252, 254, 255);
+}
+
+
+
+
+hr {
+
+    padding: 1rem;
+
+}
+
+header {
+    text-align: center;
+}
+
+
+
+.aa12 {
+    background-color: #faf098;
+    border-radius: 65px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.aa12 :hover{
+background-color: yellow;
+border-radius: 65px;
+text-align: center;
+
+outline: 2px solid rgb(8, 8, 8);
+}
+
+
+
+
+
+.li1:hover {
+    background-color: blue;
+    border-radius: 85px;
+
+    padding: 15px;
+
+
+}
+
+div,
+p {
+    padding: .5em;
+    margin: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+.section1 {
+    background-color: palevioletred;
+    border-radius: 30px;
+}
+
+.ul1 {
+    background-color: gainsboro;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.section1:hover {
+    outline: 2px solid rgb(8, 8, 8);
+    border-radius: 20px;
+    background-color: rgb(146, 45, 79);
+  
+}
+
+.article1 {
+    background-color: greenyellow;
+    border-radius: 20px;
+}
+.article1 :hover
+{
+    outline: 2px solid rgb(8, 8, 8);
+    border-radius: 10px;
+    background-color: rgb(110, 183, 151);
+}
+
+
+
+
+.footer1 {
+    background-color: #e8acc0;
+    border-radius: 30px;
+
+
+}
+
+.footer1 :hover {
+    outline: 2px solid rgb(8, 8, 8);
+    border-radius: 30px;
+    background-color: rgb(207, 140, 189);
+    box-sizing: border-box content-box;
+}
+
+.end {
+    padding: 3rem;
+    color: white;
+    display: block;
+    text-align: center;
+    background-color: rgb(39, 38, 38);
+}
+
+.href1 {
+    outline: 2px solid rgb(163, 98, 142);
+    border-radius: 3px;
+    border: #9d5e73;
+    background-color: rgba(244, 142, 200, 0.795);
+color: white;
+}
+

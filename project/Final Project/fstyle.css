@@ -1,0 +1,78 @@
+body {
+    background-image: url(dep.jpg);
+
+}
+header{
+    border: 4px;
+    background-color: rgb(50, 103, 164);
+    outline: plum;
+    text-align: center;
+}
+li{
+    background-color: rgba(119, 119, 189, 0.711);
+   
+    color: rgb(212, 220, 233);
+    border-radius: 4rem;
+
+    display: inline;
+    padding: 1rem;
+
+}
+li :hover{
+    outline: auto solid rgb(5, 8, 67);
+    background-color: rgb(68, 68, 148);
+padding: 1rem;
+border-radius: 4rem;
+}
+
+ul {
+    padding: 1rem;
+}
+.sec1{
+    background-color: rgb(149, 185, 229);
+    padding: 1rem;
+    border-radius: 30px;
+    
+}
+
+.sec2{
+    background-color: rgb(125, 150, 217);
+    border-radius: 20px;
+    padding: 100px;
+}
+.sec2 :hover{
+    border-radius: 30px;
+    outline: 2px solid rgb(8, 23, 95);
+    box-sizing: border-box 50px;
+       border: 4px;
+       background-color: rgb(184, 215, 233);
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(4, 4, 68);
+}
+.sec4{
+    background-color: rgb(37, 103, 148);
+  border-radius: 30px;
+  text-align: center;
+}
+.sec4 :hover{
+   
+    border-radius: 30px;
+    outline: 2px solid rgb(8, 23, 95);
+    box-sizing: border-box 50px;
+       border: 4px;
+       background-color: rgb(56, 107, 137);
+
+}
+.a1{
+    width: 90px;
+
+}
+.end {
+    padding: 2rem;
+    color: white;
+    display: block;
+    text-align: center;
+    background-color: rgb(29, 54, 84);
+}
