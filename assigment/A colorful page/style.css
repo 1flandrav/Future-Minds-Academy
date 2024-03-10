@@ -1,0 +1,16 @@
+p{
+    background-image: linear-gradient(pink,purple);
+    color: rgb(73, 4, 63);
+}
+body{
+    background-image: url(bacl.webp);
+}
+h1{
+    color: rgb(213, 106, 221);
+    background-image: linear-gradient(blueviolet,pink);
+}
+li
+{
+    color: palevioletred;
+ background-color: beige;
+}

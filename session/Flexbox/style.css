@@ -1,16 +1,44 @@
-body{
-    background-color: pink;
-}
-div{
-    background-color: antiquewhite;
-    border: 3px solid black;
-    width: 300px;
-    padding: 2rem;
-}
-.container{
-    width: 100vw;
-    height: 100vh;
+.Flex-container{ 
     display: flex;
-    align-items: center;
-    justify-content: ;
+    flex-wrap: nowrap;
+    background-color: white;
+}
+.flex-slices{
+    display: flex;
+    flex-wrap: nowrap
+    ;
+    background-color: palevioletred;
+}
+.logo
+{
+    flex: 1;
+    padding: 5px;
+    border: 1px solid black;
+    bottom: 1px solid rgb(73, 188, 164);
+}
+.dashboard{
+    flex: 6;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid black;
+    bottom: 1px solid rgb(154, 78, 104);
+}
+.myaccount{
+    flex: 1;
+    padding: 5px;
+    border: 1px solid black;
+    bottom: 1px solid rgb(223, 194, 121);
+}
+.flex-vertical{  flex: 1;
+    padding: 5px;
+    border: 1px solid black;
+    bottom: 1px solid rgb(148, 101, 184);
+justify-content: center;
+}
+.flex-vertical > div{
+width: 100px;
+background-color: aliceblue;
+margin: 10px;
+text-align: center;
+
 }

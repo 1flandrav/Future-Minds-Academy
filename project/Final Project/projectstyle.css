@@ -3,7 +3,7 @@ body {
 
 }
 body {
-    cursor: url('image/rocket-icon-vector.jpg'), auto;
+    cursor: url(./image/rocket-icon-vector.jpg), auto;
 }
 header {
     text-align: center;
