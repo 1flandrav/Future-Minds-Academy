@@ -1,36 +1,320 @@
- 
- 
- 
- 
- aside{
-    background-image:url(sidebar-1.jpg) ;
-background-color: rgb(27, 25, 25);
-height: 100vh;
-width: 15vw;
-margin: 0;
-padding: 0;
-}
+ body {
+     display: grid;
+     grid-template-columns: auto 1fr;
 
-aside div{
-    display: flex;
-}
-.asideLinks {
-    display: grid;
-    grid-template-columns:  auto 1fr auto;
-    align-items: center;
-gap:1rem;
-}
-.Dashboard{
-    background-color: orangered;
-    color: white;
-    border: 20px;
-    width: 15vw;
-}
+     height: 100vh;
+     background-color: gainsboro;
+ }
 
-header{
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ :root {
+     --color;
+     white
+ }
+
+ aside {
+     background-image: url(sidebar-1.jpg);
+     background-color: rgb(27, 25, 25);
+     v height: 100vh;
+     width: 15vw;
+     margin: 0;
+     padding: 0;
+
+ }
+
+ aside div {
+     display: flex;
+ }
+
+ .asideLinks {
+     display: grid;
+     grid-template-columns: auto 1fr auto;
+     align-items: center;
+     gap: 1rem;
+     margin: 10px;
+     padding: 10px;
+ }
+
+ .asideLinks:hover:not(.active) {
+     background-color: rgba(128, 128, 128, 0.332);
+
+ }
+
+ .Dashboard {
+     background-color: orangered;
+     color: white;
+     border: 20px;
+     width: 30vw;
+     padding: 20px;
+ }
+
+ .headericon {
+     background-color: gray;
+     display: none;
+ }
+
+ .headericon :hover {
+     background-color: gray;
+
+ }
+
+ .float {
+     float: right;
+ }
+
+ header {
+
+     display: flex;
+     justify-content: space-between;
+ }
+
+ header div {
+
+     display: flex;
+     gap: 1rem;
+ }
+
+ .circle {
+     background-color: rgb(243, 235, 235);
+     border-radius: 50px;
+     width: 30px;
+     height: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .notificationsInfo {
+     background-color: red;
+     position: absolute;
+     top: 0px;
+     right: 30px;
+     border-radius: 50px;
+     width: 20px;
+     height: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+ }
+
+ .notificationsMsg
+ {
+    display: none;
+ }
+
+ .notifications:hover  .notificationsMsg{
+
+    padding: 10px 20px;
+    width: 150px;
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+     display: flex;
+ }
+
+ .input {
+     text-decoration: none;
+     border: 0px;
+     background-color: gainsboro;
+ }
+
+ .card1 {
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+     background-color: white;
+     text-align: center;
+     border-radius: 5px;
+
+ }
+
+ .flagslist {
+     display: flex;
+     color: gray;
+     padding: 15px;
+     justify-content: space-between;
+     gap: 2rem;
+ }
+
+ .h2globalsales {
+     text-align: left;
+     color: rgb(40, 40, 40);
+
+ }
+
+ .languagelogo {
+     background-color: green;
+     padding: 30px;
+     transform: translateY(-20px);
+
+
+
+ }
+
+ .cards {
+     background-color: white;
+     display: grid;
+     grid-template-rows: 1fr 1fr;
+     ;
+     border-radius: 5px;
+     color: gray;
+
+ }
+
+ .figure1 {
+     float: left;
+     background-color: orange;
+     padding: 20px;
+     transform: translateY(-20px);
+
+ }
+
+ .figure2 {
+     background-color: rgb(121, 13, 83);
+     float: left;
+     transform: translateY(-20px);
+
+     padding: 20px
+ }
+
+ .figure3 {
+     background-color: rgb(20, 83, 7);
+     float: left;
+     transform: translateY(-20px);
+
+     padding: 20px
+ }
+
+ .figure4 {
+     background-color: rgb(81, 116, 159);
+     float: left;
+     transform: translateY(-20px);
+
+     padding: 20px
+ }
+
+ .cardfixing {
+     text-align: end;
+ }
+
+ .roboto-regular {
+     font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
+
+ .maincards {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 2rem;
+     width: 1250px;
+ }
+
+ main {
+    margin: 20px;
+   gap: 2rem
+   ;
+     display: grid;
+     grid-template-rows: 1fr 1fr 1fr 1fr;
+ }
+
+ .cardssection {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+gap: 2rem;
+ }
+
+ .threecards {
+
+     background-color: white;
+     border-radius: 10px;
+     box-shadow: (5px 5px 15px 0px black);
+ }
+
+ .threecards :hover {}
+
+ .cardphoto {
+
+     width: 90%;
+     justify-content: center;
+     text-align: center;
+     transform: translateY(-30px);
+
+ }
+
+ .cardphoto :hover {
+     transform: translateY(-40px);
+
+ }
+
+ .cardicons {
+     gap: 1rem;
+     display: flex;
+     transform: translateY(-60px);
+     text-align: center;
+     justify-content: center;
+ }
+
+ .h1threecards {
+
+     transform: translateY(-50px);
+ }
+.johndoe{
     display: flex;
-    justify-content: space-between;}
-header div {
-    display: flex;
-    gap: 1rem;
 }
+  .footer {gap: 1rem;
+     display: flex
+     ;
+    justify-content: space-evenly;
+  
+ }
+
+
+ @media (max-width:1000px) {
+     aside {
+         display: none
+     }
+
+     header {
+         display: none;
+     }
+
+     .card1 {
+
+         display: grid;
+         grid-template-rows: 1fr;
+
+     }
+
+     .flagslist {
+         width: 20px;
+         flex-direction: row;
+     }
+
+     .map {
+         display: none;
+     }
+
+     .maincards {
+
+         display: grid;
+         grid-template-rows: 1fr 1fr;
+         gap: 2rem;
+         width: 450px;
+     }
+
+     .threecards {
+
+         display: grid;
+         grid-template-rows: 1fr 1fr 1fr;
+
+     }
+
+ }
