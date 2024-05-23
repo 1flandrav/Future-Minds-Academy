@@ -1,0 +1,339 @@
+body {
+  background-image: url(images/Vin-13-31x43-1.jpg);
+
+  height: 100vh;
+}
+
+header nav {
+  text-decoration: none;
+  display: flex;
+  color: rgb(184, 215, 247);
+  gap: 2rem;
+  justify-content: flex-end;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+  border-radius: 50px;
+ margin: 10px;
+  background-color:
+  rgb(33, 150, 228);
+
+  box-shadow: 5px 5px 2px 1px rgba(67, 67, 135, 0.293);
+  width: 80px;
+  height: 50px;
+  color: rgb(174, 200, 227);
+  border-color: white;
+}
+
+.button1 {
+  border-radius: 50px;
+  background-color:
+
+    rgb(33, 150, 228);
+  width: 200px;
+  height: 50px;
+  color: rgb(174, 200, 227);
+  border-color: white;
+
+  transform: translateY(260px);
+}
+
+
+.section1 {
+  margin-left: 50px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 300%;
+  display: flex;
+}
+
+.text {
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50%;
+  transform: translateY(280px);
+  color: rgb(25, 73, 145);
+
+}
+
+.cardss {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.cards {
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  width: 250px;
+  margin: 50px;
+  color: rgb(97, 131, 194);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+section h3 {
+  background-color: rgba(7, 43, 96, 0.885);
+  color: rgba(146, 173, 233, 0.851);
+
+}
+
+.text1 {
+  color: rgb(62, 111, 174);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 300%;
+  justify-content: center;
+  text-align: center;
+}
+
+.text2 {
+  color: rgb(62, 111, 174);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 300%;
+  justify-content: center;
+  text-align: center;
+
+
+  margin: 50px;
+
+}
+
+.buttons {
+  justify-content: center;
+  text-align: center;
+  gap: 3rem;
+
+}
+
+.button3 {
+  border-radius: 50px;
+  background-color:
+    rgb(150, 190, 218);
+  width: 200px;
+  height: 50px;
+  color: rgb(57, 109, 163);
+  border-color: #83abc1;
+  box-shadow: 5px 5px 2px 1px rgba(67, 67, 135, 0.293);
+
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+.card3 {
+
+  background-color: #bae3f9;
+  justify-content: center;
+  text-align: center;
+
+  border-radius: 30px;
+  width: 400px;
+  margin: 50px;
+  color: rgb(97, 131, 194);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  display: flex;
+}
+
+.P {
+  font-size: large;
+  color: #237fa3;
+  margin: 1REM;
+  transform: translateY(30px);
+  text-align: right;
+}
+
+.buttonn {
+  height: 50px;
+  width: 80px;
+  background-color: #25a5d7;
+  color: #97dfec;
+  border-color: #bae3f9;
+  border-radius: 30px;
+  transform: translateY(50px);
+
+}
+
+.allcards {
+  display: flex;
+  transform: translateY(280px);
+  justify-content: space-between;
+}
+
+body {
+
+
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.contents {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.content {
+  transform: translateY(-70px);
+  background-color: #83abc1;
+}
+
+.content h2 {
+  color: #fff;
+  font-size: 8em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  text-align: center;
+  transform: translateY(50px);
+}
+
+.content h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #54cfff;
+  align-items: center;
+  justify-content: center;
+}
+
+.content h2:nth-child(2) {
+  color: #97dfec;
+  animation: animate 4s ease-in-out infinite;
+  justify-content: center;
+  text-align: center;
+}
+
+@keyframes animate {
+
+  0%,
+  100% {
+    clip-path: polygon(0% 45%,
+        16% 44%,
+        33% 50%,
+        54% 60%,
+        70% 61%,
+        84% 59%,
+        100% 52%,
+        100% 100%,
+        0% 100%);
+  }
+
+  50% {
+    clip-path: polygon(0% 60%,
+        15% 65%,
+        34% 66%,
+        51% 62%,
+        67% 50%,
+        84% 45%,
+        100% 46%,
+        100% 100%,
+        0% 100%);
+  }
+}
+
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+  margin: 0;
+}
+
+
+p {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #65baec;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(60deg, rgb(34, 185, 255) 0%, rgb(202, 233, 255) 100%);
+  color: white;
+  transform: translateY(280px);
+}
+
+
+.inner-header {
+  height: 65vh;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px;
+  min-height: 100px;
+  max-height: 150px;
+}
+
+.content1 {
+  text-align: center;
+  justify-content: center;
+  margin: 40px;
+  height: 10vh;
+  width: 200PX;
+  transform: translateY(-160px);
+  background-color: rgb(115, 199, 247);
+  box-shadow: 12px 12px 2px 1px rgba(96, 174, 229, 0.2);
+  border-radius: 30px;
+  border-color: #97dfec;
+}
+
+
+
+.parallax>use {
+  animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax>use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+
+.parallax>use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+
+.parallax>use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+
+.parallax>use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+
+
+}
