@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My profile</title>
+</head>
+<body>
+    <h1 >AVOCADO</h1>
+
+    <div id="foto">
+    <img src="batman.png" alt="" ></div>
+    <p id="une">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sapiente consequuntur perspiciatis!
+         Veniam ea sequi vel ratione eos fugiat quaerat assumenda iure porro maiores iste, cupiditate molestiae dicta quod modi!</p>
+         <button onclick="loadDele()">DELE</button>
+         <button onclick="loadBatman()">Batman</button>
+       
+         <script>
+  function loadDele (){
+  
+  const h1 = document.querySelector('h1');
+h1.innerHTML = '<h1>Flandra Veseli</h1>';
+
+const foto= document.querySelector('#foto');
+foto.innerHTML= ' <img src="dele.png" alt="">';
+
+
+const une = document.querySelector('#une');
+une.innerHTML = '<p>Un jam Flandra Veseli</p>';}
+
+function loadBatman (){
+  
+  const h1 = document.querySelector('h1');
+h1.innerHTML = '<h1>Avocado</h1>';
+
+const foto= document.querySelector('#foto');
+foto.innerHTML= ' <img src="batman.png" alt="">';
+
+
+const une = document.querySelector('#une');
+une.textContent= 'lorem impsum hwqgwiwdiuuwqh';}
+     
+         </script>
+         
+</body>
+</html>
