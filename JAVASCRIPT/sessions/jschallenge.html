@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let kilometers = prompt("Please enter the number of kilometers:");
+
+
+        kilometers = Number(kilometers);
+
+
+        let miles = kilometers / 1.6;
+        miles = Math.round(miles);
+
+
+        console.log(`${kilometers} kilometers is approximately ${miles} miles.`);
+        let radius = prompt("Please enter the radius of the circle:");
+
+
+        radius = Number(radius);
+
+        let area = Math.PI * Math.pow(radius, 2);
+
+
+        console.log(`The area of a circle with radius ${radius} is ${area.toFixed(2)} square units.`);
+        let euros = prompt("Please enter the amount in euros:");
+
+
+euros = Number(euros);
+
+
+let dollars = euros * 1.1;
+
+dollars = dollars.toFixed(2);
+
+console.log(`${euros} euros is approximately ${dollars} dollars.`);
+    </script>
+</body>
+
+</html>
