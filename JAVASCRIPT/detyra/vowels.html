@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head> 
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Press Detector</title>
+    <script type="text/javascript">
+     
+        function checkCharacter(char) {
+            const vowels = "aeiouAEIOU";
+            const consonants = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ";
+            const numbers = "0123456789";
+
+            if (char.length !== 1) {
+                console.log("Please enter a single character.");
+            } else if (vowels.includes(char)) {
+                console.log(`'${char}' is a vowel.`);
+            } else if (consonants.includes(char)) {
+                console.log(`'${char}' is a consonant.`);
+            } else if (numbers.includes(char)) {
+                console.log(`'${char}' is a number.`);
+            } else {
+                console.log(`'${char}' is a symbol.`);
+            }
+        }
+
+        
+        document.addEventListener('keypress', (e) => {
+            let char = e.key;
+            checkCharacter(char);
+        });
+    </script>
+</head>
+<body>
+    <h1>Press any key to check if it's a vowel, consonant, number, or symbol</h1>
+</body>
+</html>
