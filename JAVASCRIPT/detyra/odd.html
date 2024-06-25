@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function checkEvenOrOdd(number) {
+        if (number % 2 === 0) {
+            return "even";
+        } else {
+            return "odd";
+        }
+    }
+ 
+    function handleUserInput() {
+        let userInput = prompt("Enter a number:");
+   
+        let number = parseInt(userInput);
+        if (isNaN(number)) {
+            console.log("There was an error in your input");
+        } else {
+            let result = checkEvenOrOdd(number);
+            console.log(`The number ${number} is ${result}`);
+        }
+    }
+  
+    handleUserInput();</script>
+</body>
+</html>
